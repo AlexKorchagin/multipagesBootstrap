@@ -1,0 +1,711 @@
+body, html {
+    font-family: "Poppins", sans-serif !important;
+    background: #F9F9F9;
+}
+
+
+
+p, h1 {
+    margin: 0 !important;
+}
+
+.title {
+    color: #201F1F;
+    font-size: calc(20px + 1.4vw);
+    margin-top: 150px;
+    font-weight: 600;
+    text-align: center;
+    span {
+        color: #5C4EAE;
+    }
+    
+}
+
+.purple-btn {
+    color: #F9F9F9;
+    font-size: calc(9px + 0.390625vw);
+    font-style: normal;
+    font-weight: 700;
+    text-transform: uppercase;
+    border-radius: 17px;
+    background: #6C5FBC;
+    padding: 15px 24px;
+    transform: .3s ease;
+    border: none;
+}
+.purple-btn:hover {
+    background-color: #776bcb;
+}
+
+.container {
+    max-width: 1340px;
+    height: 100%;
+}
+
+header {
+    background: #F9F9F9;
+    nav > .container {
+        border-bottom: 1px solid #CBCBCB;
+        padding: 24px 0px !important;
+    }
+
+    .logo {
+        span {
+            color: #6C5FBC;
+            font-size: 21px;
+            font-style: normal;
+            font-weight: 600;
+            margin-left: 10px;
+        }
+    }
+    ul {
+        color: #606060;
+        font-size: 17px;
+        font-style: normal;
+        font-weight: 500;
+        line-height: 26.743px; 
+        text-transform: capitalize;
+    }
+
+    button {
+        color: #606060;
+        font-size: 17px;
+        font-style: normal;
+        font-weight: 700;
+        padding: 17px 26px;
+        text-transform: capitalize;
+        border: none;
+        background-color: transparent;
+    }
+
+    .purple-btn {
+        color: #F9F9F9;
+        font-size: 17px;
+        font-style: normal;
+        font-weight: 700;
+        text-transform: capitalize;
+        border-radius: 17px;
+        background: #6C5FBC;
+        
+        transform: .3s ease;
+    }
+    .purple-btn:hover {
+        background-color: #776bcb;
+    }
+    
+}
+
+
+
+footer {
+    padding: 60px 0px;
+    margin-top: 200px;
+    background: #EAEAEA;
+    .logo {
+        span {
+            color: #6C5FBC;
+            font-size: 28.525px;
+            font-style: normal;
+            font-weight: 600;
+        }
+    }
+
+    .links {
+        .link {
+            text-decoration: none;
+            color: #999;
+            font-size: 17.829px;
+            font-style: normal;
+            font-weight: 500;
+            text-transform: capitalize;
+
+        }
+    }
+    
+    .desqr {
+        color: #999;
+        font-size: 17px;
+        font-style: normal;
+        font-weight: 500;
+    }
+
+}
+
+
+main {
+
+
+    .banner {
+        border-radius: 30.848px;
+        background:  rgb(107, 95, 188)  url("../../img/pattern.png");
+        border: none;
+        width: 100%;
+        padding: 40px 60px;
+        position: relative;
+        .sale {
+            color: #FFF;
+            font-size: calc(38px + 1.7vw);
+            font-style: normal;
+            font-weight: 800;
+            line-height: normal;
+        }
+        label {
+            width: 40%;
+            position: relative;
+            border: none;
+        }
+
+        label input {
+            width: 100%;
+            border: none;
+            color: #878787;
+            padding: 22px;
+            font-size: calc(9px + 0.390625vw);
+            font-style: normal;
+            font-weight: 400;
+            text-transform: capitalize;
+            outline: none;
+            border-radius: 14.637px;
+            background: #FFF;
+            box-shadow: 0px 7.458px 46.615px 0px rgba(0, 0, 0, 0.10);
+        }
+
+
+        .purple-btn {
+            position: absolute;
+            right: 6px;
+            top: 7px;
+        }
+        img {
+            position: absolute;
+            width: 20%;
+            right: 70px;
+            bottom: -90px;
+        }
+
+    }
+
+    .articles {
+        margin-top: 100px;
+        .row:nth-of-type(2) {
+            margin-top: 110px;
+        }
+        .arcticle {
+            width: 350px;
+            padding: 25px 20px;
+            border-radius: 15.855px;
+            background: #FFF;
+            box-shadow: 0px 3.905px 46.864px 0px rgba(197, 197, 197, 0.25);
+            
+            .img {
+                width: 100%;
+                border-radius: 12.236px;
+                height: calc(187px + 5vw);
+            }
+
+            .name {
+                color: #252525;
+                font-size: calc(12px + 0.5vw);
+                font-style: normal;
+                font-weight: 600;
+                line-height: 25.18px;
+                margin-top: 20px;
+            }
+
+            .profile {
+
+                .text {
+                    color: #000;
+                    font-size: calc(10px + 0.4vw);
+                    font-style: normal;
+                    font-weight: 500;
+                    span {
+                        color: #8D8D8D;
+                        font-size: calc(7px + 0.3vw);
+                        font-style: normal;
+                        font-weight: 400;
+                    }
+                }
+
+            }
+            .date {
+                color: #B7B4B4;
+                font-size: calc(9px + 0.3vw);
+                font-style: normal;
+                font-weight: 500;
+                line-height: 31.387px; /* 197.965% */
+            }
+
+        }
+
+    }
+
+}
+
+
+.contact {
+    background:
+    linear-gradient(#6C5FBC, #6C5FBC) left; /* Layer 2 - Blue */
+    background-size: 30% 100%;
+    background-repeat: no-repeat;
+
+    .text {
+        color: #F9F9F9;
+        font-family: Poppins;
+        font-size: calc(20px + 1.4vw);
+        font-style: normal;
+        font-weight: 600;
+        line-height: 105%; /* 50.4px */
+    }
+
+    .phone {
+        position: absolute;
+        left: 40%;
+        top: 40%;
+    }
+
+    .area {
+        border: 2px solid #F5F5F5;
+    }
+    .area::placeholder {
+        font-size: 16px;
+        color: #C2C3CB;
+        font-weight: 600;
+        text-transform: uppercase;
+    }
+
+    .form label input:focus, .form .area:valid  {
+        border: 2px solid #F5F5F5;
+     }
+}
+
+.slide {
+    background-color: #fff;
+    width: 100%;
+    height: 250px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
+
+
+
+
+#auth {
+    padding: 32px 0px;
+    height: fit-content;
+    background:
+    linear-gradient(#fff, #fff) left, /* Layer 1 - Red */
+    linear-gradient(#6C5FBC, #6C5FBC) right; /* Layer 2 - Blue */
+    background-size: 55% 100%;
+    background-repeat: no-repeat;
+
+    .buttons {
+      width: 380px;
+        button {
+            border: 2px solid #F5F5F5;
+            background-color: #F5F5F5;
+            width: 48%;
+            padding: 10px 0px;
+        }
+
+        button:hover, button:focus {
+          border: 2px solid #6C5FBC;
+        }
+    }
+
+    .signin {
+      color: #3E3E3E;
+      font-size: 18px;
+      font-style: normal;
+      font-weight: 400;
+
+      a {
+        color: #6C5FBC !important;
+        font-size: 18.9px;
+        font-style: normal;
+        font-weight: 700;
+        text-decoration: none;
+      }
+    }
+
+    .submit {
+      color: #F3F5F6;
+      font-family: Poppins;
+      font-size: 17px;
+      font-style: normal;
+      font-weight: 600;
+      text-transform: uppercase;
+    }
+    .policy {
+      width: 100%;
+      a {
+        color:  #718096;
+        font-family: Poppins;
+        font-size: 16px;
+        font-style: normal;
+        font-weight: 500;
+        text-decoration: none;
+      }
+    }
+
+    .logo {
+      width: 100%;
+    }
+
+    .text {
+      .title {
+        color: #fff;
+        text-align: center;
+        font-size: 40px;
+        font-style: normal;
+        font-weight: 600;
+      }
+      .desqr {
+        color: #fff;
+        text-align: center;
+        font-size: 14px;
+        font-style: normal;
+        font-weight: 200;
+        line-height: 150%; 
+        letter-spacing: 0.2px;
+      }
+    }
+}
+
+/* From Uiverse.io by Yaya12085 */ 
+.form {
+    display: flex;
+    flex-direction: column;
+    gap: 24px;
+    width: 380px;
+    box-sizing: border-box;
+    border-radius: 20px;
+    position: relative;
+    width: 100%;
+  }
+
+  .message, .signin {
+    color: rgba(88, 87, 87, 0.822);
+    font-size: 14px;
+  }
+  
+  .signin {
+    text-align: center;
+  }
+  
+  .signin a {
+    color: royalblue;
+  }
+  
+  .signin a:hover {
+    text-decoration: underline royalblue;
+  }
+  
+  .flex {
+    display: flex;
+    width: 100%;
+    gap: 6px;
+  }
+  
+  .form label {
+    position: relative;
+  }
+  
+  .form label .input {
+    width: 100%;
+    padding: 25px;
+    outline: 0;
+    border: none;
+    border-radius: 14.275px;
+    background-color: #fff;
+    border: 2px solid #F5F5F5;
+    color: #6C5FBC;
+    font-size: 16px;
+    font-weight: 500;
+  }
+  
+  .form label .input + div {
+    position: absolute;
+    left: 20px;
+    top: 15px;
+    color: #C2C3CB;
+    /* font-size: 16px; */
+    font-style: normal;
+    font-weight: 600;
+    cursor: text;
+    transition: 0.3s ease;
+  }
+
+  .form label svg {
+    transition: 0.3s ease;
+    margin-right: 30px;
+  }
+  
+  .form label .input:placeholder-shown + div {
+    top: 25px;
+    font-size: 16px;
+  }
+  
+  .form label .input:focus + div,.form label .input:valid + div{
+    top: 50px;
+    font-size: 0.7em;
+    font-weight: 600;
+    color: #6C5FBC;
+
+    svg {
+      margin-right: 0px;
+      transform: scale(0.6);
+
+      path {
+        fill: #6C5FBC;
+      }
+    }
+  }
+
+  .form label input:focus, .form .input:valid  {
+     border: 2px solid #6C5FBC;
+  }
+  
+  
+  .submit {
+    border: none;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    outline: none;
+    font-size: 20.812px;
+    padding: 24px 0px;
+    border-radius: 15.564px;
+    background: #6C5FBC;    
+    color: #F3F5F6;
+    transform: .3s ease;
+  }
+  
+  .submit:hover {
+    background-color: #776bcb;
+  }
+  
+
+
+
+
+
+@media (max-width: 1024px) {
+    .container {
+        padding: 0 10px !important;
+    }
+    header {
+        ul {
+            font-size: 12px !important;
+        }
+        button {
+            font-size: 12px !important;
+        }
+
+        nav {
+            .container {
+                padding: 24px 10px !important;
+            }
+        }
+        
+    }
+
+    footer {
+
+        .links {
+            .link {
+                font-size: 12.678px;
+                font-style: normal;
+                font-weight: 500;
+            }
+
+        }
+
+        .logo {
+            svg {
+                width: 44.007px !important;
+                height: 40.534px !important;
+            }
+            span {
+                font-size: 20px !important;
+            }
+
+        }
+        .desqr {
+            font-size: 12.089px !important;
+            font-weight: 500;
+        }
+        
+    }
+
+    .arcticle {
+        width: 250px !important;
+        padding: 16px 12px !important;  
+        height: 320px;
+        .img {
+            height: 70% !important;
+        }
+        .name {
+            margin-top: 15px !important;
+        }
+    }
+}
+
+@media (max-width: 768px){
+    
+    .contact {
+        background: none;
+    }
+
+    .banner {
+        height: 256px;
+        label {
+            width: 100% !important;
+        }
+        .sale {
+            text-align: center;
+        }
+        .purple-btn {
+            position: absolute;
+            right: 6px;
+            top: 7px;
+        }
+        img {
+            position: absolute;
+            width: 20%;
+            right: 70px;
+            bottom: -90px;
+        }
+
+    }
+
+    .articles {
+        .row:nth-of-type(2) {
+            margin-top: 3rem !important;
+        }
+    }
+}
+
+@media (max-width: 425px){
+    
+    .banner {
+        padding: 40px 30px !important;
+    }
+
+}
+
+
+
+@media (max-width: 1024px) {
+    #auth {
+      h1 {
+        font-size: 25px !important;
+        font-weight: 600 !important;
+      }
+  
+      .buttons {
+        width: 270px;
+      }
+  
+      .form label .input:placeholder-shown + div{
+        font-size: 12px ;
+        font-style: normal;
+        font-weight: 600;
+      }
+  
+      .form label .input {
+        padding: 17px;
+      }
+  
+      .form {
+        width: 270px;
+      }
+      .form label .input + div {
+        left: 15px;
+        top: 23px;
+      }
+  
+      .form label .input:focus + div,.form label .input:valid + div{
+        top: 40px;
+        font-size: 0.7em;
+        font-weight: 500;
+        color: #6C5FBC;
+    
+        svg {
+          margin-right: 0px;
+          transform: scale(0.6);
+    
+          path {
+            fill: #6C5FBC;
+          }
+        }
+      }
+  
+      .submit {
+        font-size: 12px;
+        font-style: normal;
+        font-weight: 600;
+        padding: 17px 0px;
+      }
+  
+      .signin {
+        font-size: 13px;
+        font-style: normal;
+        font-weight: 400;
+  
+        a {
+          color: #6C5FBC;
+          font-size: 13px;
+          font-weight: 700;
+        }
+      }
+  
+      .policy {
+        a {
+          font-size: 11px;
+          font-weight: 500;
+        }
+      }
+  
+      .text {
+        width: 80%;
+        margin: 50px auto 0px auto;
+        .title {
+          font-size: 28px;
+          font-style: normal;
+          font-weight: 800;
+        }
+        .desqr {
+          text-align: center;
+          font-size: 9px;
+          font-style: normal;
+          font-weight: 500;
+          line-height: 150%;
+          opacity: 0.7;
+        }
+      }
+  
+    }
+  }
+  
+  @media (max-width: 767px) {
+    #auth {
+      background: #fff;
+  
+      .buttons {
+        width: 100%;
+      }
+      
+      .form {
+        width: 100%;
+      }
+  
+     div > div > div.col-12.col-md-7.d-flex.flex-column.align-items-center > div:nth-child(2) {
+      width: 80%;
+      padding: 30px 0px !important;
+     }
+    }
+  }
